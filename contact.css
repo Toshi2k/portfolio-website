@@ -1,0 +1,8 @@
+/* Contact-specific styles */
+.contact-panel { padding: 20px; }
+.contact-list { display: grid; gap: 12px; }
+
+@media (max-width: 860px) {
+  .contact-grid { grid-template-columns: 1fr; }
+  .form-row-2 { grid-template-columns: 1fr; }
+}
