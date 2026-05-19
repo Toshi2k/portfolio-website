@@ -1,0 +1,10 @@
+/* Work-specific styles */
+.project-card { padding: 22px; }
+.project-card img { min-height: 160px; border-radius: 18px; }
+.tech-list { display: flex; gap: 8px; flex-wrap: wrap; }
+
+/* Responsive adjustments */
+@media (max-width: 780px) {
+  .grid-2, .grid-3 { grid-template-columns: 1fr; }
+  .project-card img { min-height: 140px; }
+}
