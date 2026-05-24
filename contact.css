@@ -1,0 +1,5 @@
+/* contact.css - page-specific styles for contact.html */
+/* Minimal file to allow page-specific overrides */
+.contact-panel {
+  padding: 1rem;
+}

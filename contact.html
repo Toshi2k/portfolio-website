@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Portfolio</title>
+  <link rel="stylesheet" href="./css/main.css" />
+  <link rel="stylesheet" href="./css/contact.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container navbar">
+      <a class="brand" href="index.html">Ashitosh<span>Sardjoe</span></a>
+      <button class="nav-toggle" type="button" aria-label="Toggle navigation">☰</button>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="work.html">Work</a>
+        <a href="contact.html" class="active">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="section">
+      <span class="eyebrow">Get in Touch</span>
+      <h1 class="hero-title">Contact Ashitosh Sardjoe</h1>
+      <p class="hero-text">If you'd like to discuss work experience, network projects, or study opportunities, I'm happy to connect.</p>
+    </section>
+
+    <section class="section contact-grid">
+      <div class="contact-panel">
+        <h3>Contact details</h3>
+        <p>I'm available to connect about networking, safety management, and technology growth.</p>
+        <ul class="contact-list">
+          <li class="contact-item">✉️ <a href="mailto:ashitosh2k@gmail.com">ashitosh2k@gmail.com</a></li>
+          <li class="contact-item">📞 +597 8986392</li>
+        </ul>
+      </div>
+
+      <div class="contact-panel">
+        <h3>Send a message</h3>
+        <form id="contact-form">
+          <div class="form-row form-row-2">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" placeholder="Your name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input id="email" name="email" type="email" placeholder="you@example.com" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button class="form-submit" type="submit">Send message</button>
+          <p id="form-success" class="form-success"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">© 2026 Ashitosh Sardjoe · Built with HTML, CSS, and JavaScript.</footer>
+  <script src="main.js"></script>
+</body>
+</html>
