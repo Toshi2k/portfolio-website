@@ -1,6 +1,0 @@
-/* work.css - page-specific styles for work.html */
-/* Keep minimal overrides; main styles are in main.css */
-.project-card img {
-  max-width: 100%;
-  height: auto;
-}
